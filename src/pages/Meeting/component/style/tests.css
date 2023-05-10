@@ -1,0 +1,106 @@
+
+.meeting-tests{
+    padding:12px;
+    margin-left: 32px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+.test-list-card{
+    background: #20C389;
+    
+    border-radius: 13px;
+    padding: 10px;
+    
+
+}
+
+.test-list-card.parent > .test-list-card:not(.child1){
+    opacity: 0.22;
+}
+.test-selected-card-text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 26px;
+    color: #FAFAFA;
+}
+.test-list-card-text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 26px;
+    color: #189166;
+    margin: 0;
+    opacity: 1;
+}
+.meeting-tests-header-title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #9B9FA6;
+}
+.test-selected-card{
+    background: #20C489;
+    border-radius: 89px;
+    padding:8px;
+    display: flex;
+
+}
+.meeting-tests-selected{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:12px;
+}
+.meeting-tests-title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #B6B6B6;
+}
+.meeting-test-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:8px;
+}
+.test-selected-card-btn{
+    background-color: transparent;
+    color: white;
+    border:none;
+}
+.meeting-tests-line{
+    opacity: 0.1;
+    border: 1px solid #000000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.meeting-test-send-btn{
+    background: #2574FF;
+    border-radius: 15px;
+    padding: 12px;
+        
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.meeting-test-send{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-top: 32px;
+}

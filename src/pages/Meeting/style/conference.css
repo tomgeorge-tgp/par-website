@@ -1,0 +1,12 @@
+.conference-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+.conference-container-videoconf{
+    flex:70%
+}
+.conference-container-profile{
+    flex:30%;
+}

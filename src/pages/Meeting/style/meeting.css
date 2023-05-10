@@ -1,0 +1,130 @@
+
+.meeting-start-container{
+   margin:32px;
+   background: #FCFCFC;
+   padding:44px;
+}
+.meeting-start-container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.meeting-start-container-header-img{
+    width: 69px;
+    height: 69px;
+    background: #D9D9D9;
+    border-radius: 34px;
+    margin-right: 12px;
+}
+
+.meeting-start-container-header-name{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3F4856;
+    margin: 0px;
+    
+}
+.meeting-start-container-header-gender{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #3F4856;
+    margin: 0px;
+}
+.meeting-start-container-header-title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #B6B6B6;
+    margin: 0px;
+}
+.meeting-start-container-header-value{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* display: flex;
+    align-items: center; */
+    color: #252525;
+    margin:0px;
+}
+.meeting-start-container-header-reading{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-left: 64px;
+}
+
+/* .meeting-start-container-header-value{
+
+} */
+.meeting-start-container-line{
+    opacity: 0.2;
+    border: 1px solid #000000;
+    margin-top: 32px;
+}
+.meeting-start-container-symptoms-title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3F4856;
+}
+.meeting-start-container-symptoms-value
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252525;
+}
+.meeting-start-container-contacts-content{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.meeting-start-container-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 24px;
+}
+.meeting-start-container-message-btn{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #2574FF;
+    width: 251px;
+    height: 51px;
+    border: 0.5px solid #2574FF;
+    border-radius: 15px;
+}
+.meeting-start-container-join-btn{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 251px;
+    height: 51px;
+    background: #2574FF;
+    border-radius: 15px;
+    border:none;
+    margin-left:24px;
+}
