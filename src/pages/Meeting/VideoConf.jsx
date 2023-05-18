@@ -37,7 +37,7 @@ export function getUrlParams(
       const serverSecret = "43d1582c29b305b08a87795a99495896";
       const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID,  randomID(5),  randomID(5));
 
-
+        console.log("url",window.location.protocol+'//'+window.location.host+window.location.pathname+'?roomID'+roomID);
      // Create instance object from Kit Token.
       const zp = ZegoUIKitPrebuilt.create(kitToken);
       // start the call
@@ -48,10 +48,11 @@ export function getUrlParams(
           {
             name: 'Personal link',
             url:
-             window.location.protocol + '//' + 
-             window.location.host + window.location.pathname +
-              '?roomID=' +
-              roomID,
+            //  window.location.protocol + '//' + 
+            //  window.location.host + window.location.pathname +
+            //   '?roomID=' +
+            //   roomID,
+            "http://localhost:3000/?roomIDXirdc",
           },
         ],
         scenario: {

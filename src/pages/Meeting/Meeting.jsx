@@ -11,7 +11,7 @@ function Meeting()
     // const navigate = useNavigate(); 
     const [searchText, setSearchText] = useState("");
     return(<>
-         <TitleBar/>
+         {/* <TitleBar/> */}
          <div className="meeting-start-container">
          
          <div className="meeting-start-container-header">
